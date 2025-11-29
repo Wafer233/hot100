@@ -1,12 +1,10 @@
 package main
 
-import "fmt"
-
-func main() {
-	var n int
-	_, _ = fmt.Scan(&n)
-	fmt.Println(NQueens(n))
-}
+//func main() {
+//	var n int
+//	_, _ = fmt.Scan(&n)
+//	fmt.Println(NQueens(n))
+//}
 
 func NQueens(n int) [][]string {
 
